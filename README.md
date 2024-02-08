@@ -9,20 +9,24 @@ Discover the flavors of Havmore Ice Cream with our Python Django-powered website
    cd havmore-python-django
 
 2. Create and activete a virtual enviornment:
+     ```bash
      python -m venv env
      env\Scripts\activate  # Windows
      source env/bin/activate  # Unix/Mac
    
-4. Install dependencise:
+3. Install dependencise:
+    ```bash
      pip install -r requirements.txt
 
-5. Setup the database:
+4. Setup the database:
+    ```bash
      python manage.py migrate
 
-6. Run the server
+5. Run the server:
+   ```bash
    start the Django development server:
        python manage.py runserver
    
-8. Access the project in your web browser:
+6. Access the project in your web browser:
+     ```bash
       http://localhost:8000/views
- 
